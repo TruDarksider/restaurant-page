@@ -38,3 +38,4 @@ function createHeader() {
 }
 
 createHeader();
+landing();
