@@ -11,7 +11,7 @@ export default function contact(){
 
     const phone = document.createElement('div');
     phone.classList.add('phone');
-    phone.textContent = 'We can be reach by guessing the correct digits in the +[#|##] ### - #### format. Long distance charges will likely apply, but depend on the number when you reach it.';
+    phone.textContent = 'We can be reach by guessing the correct digits in the +[#|##](###)#### format. Long distance charges will likely apply, but depend on the number when you reach it.';
     contact.appendChild(phone);
 
     content.appendChild(contact);
